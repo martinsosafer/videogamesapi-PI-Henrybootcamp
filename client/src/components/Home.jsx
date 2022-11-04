@@ -86,10 +86,10 @@ export default function Home() {
     setCurrentPage(1);
     setOrden(`Ordenado ${e.target.value}`);
   }
-  function handlemayorRating(e){
-    e.preventDefault();
-    dispatch(mayorRating(e.target.value))
-  }
+  // function handlemayorRating(e){
+  //   e.preventDefault();
+  //   dispatch(mayorRating(e.target.value))
+  // }
 
   
   return (
@@ -122,7 +122,7 @@ export default function Home() {
             })}
           </select>
         </div>
-        <button onClick={(e)=>handlemayorRating(e)}>Mayor a 4</button>
+      
         <select id="select" onChange={(e) => handleSort(e)}>
           <option>Order</option>
           <option value="asc">Ascending</option>

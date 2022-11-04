@@ -126,13 +126,13 @@ function rootReducer(state = initialState, action) {
           videogames: sortedArr,
         };
 
-        case 'FILTER_M4':
-          const ratingM4=state.allVideogames
-          const result= ratingM4.filter(el=>el.rating>4)
-          return{
-            ...state,
-            videogames:result
-          }
+        // case 'FILTER_M4':
+        //   const ratingM4=state.allVideogames
+        //   const result= ratingM4.filter(el=>el.rating>4)
+        //   return{
+        //     ...state,
+        //     videogames:result
+        //   }
 
 
       default:

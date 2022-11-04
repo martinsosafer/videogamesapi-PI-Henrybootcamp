@@ -105,9 +105,9 @@ export function clear(){
   }
 }
 
-export function mayorRating(){
-  return{
-    type:'FILTER_M4',
-    payload:[]
-  }
-}
+// export function mayorRating(){
+//   return{
+//     type:'FILTER_M4',
+//     payload:[]
+//   }
+// }
